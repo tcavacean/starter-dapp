@@ -39,7 +39,7 @@ export const network: NetworkType = {
   explorerAddress: 'http://testnet-explorer.elrond.com/',
   delegationContract: 'erd1qqqqqqqqqqqqqqqpqqqqqqqqqqqqqqqqqqqqqqqqqqqqq90llllslwfcr3',
 };
- //comment
+ 
 const networkSchema = object({
   id: string()
     .defined()
